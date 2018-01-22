@@ -148,7 +148,7 @@
                         <password>sa</password>
                     </security>
                 </datasource>
-                <datasource jndi-name="java:/sqlserverDS" pool-name="sqlserverDS" enabled="true">
+                <datasource jndi-name="java:jboss/datasources/sqlserverDS" pool-name="sqlserverDS" enabled="true">
                     <connection-url>jdbc:sqlserver://localhost;DatabaseName=database</connection-url>
                     <driver>sqlserver</driver>
                     <security>
